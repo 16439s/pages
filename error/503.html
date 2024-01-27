@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>503 Service Unavailable</title>
+<style>
+    body {
+        background-color: #000;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .error-container {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 4em;
+        margin-bottom: 0.5em;
+        animation: glow 1s infinite alternate;
+    }
+
+    p {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .explanation {
+        font-size: 1.2em;
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #f0f, 0 0 50px #f0f, 0 0 60px #f0f, 0 0 70px #f0f, 0 0 80px #f0f;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>503 Service Unavailable</h1>
+        <p>Service Unavailable</p>
+        <p class="explanation">The service is temporarily unavailable due to maintenance or overload. Please try again later.</p>
+        <hr>
+        <p>サービスが利用できません</p>
+        <p class="explanation">メンテナンスや過負荷のため、一時的にサービスが利用できません。後でもう一度お試しください。</p>
+        <hr>
+        <p>Copyright © 2024 FreelyNetwork All Rights Reserved.</p>
+    </div>
+</body>
+</html>
